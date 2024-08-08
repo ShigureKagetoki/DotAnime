@@ -16,8 +16,8 @@ body {
 .img-wrap {
 	text-align: center;
 	margin: auto;
-	width: 90%;
-	height: 90%;
+	max-width: 90%;
+	max-height: 90%;
 }
 
 @media (max-width: 768px){
