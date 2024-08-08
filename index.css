@@ -9,12 +9,11 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	max-height: 90%;
 	height: 100vh;
+	weight: 100vh;
 }
 
 .img-wrap {
-	max-width: 90%;
 	text-align: center;
 	margin: auto;
 }
