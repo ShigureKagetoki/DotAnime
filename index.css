@@ -22,12 +22,13 @@ body {
 	background-color: blue;
 }
 
+img {
+	max-width: 100%;
+}
+
 @media (max-width: 768px){
 	
 }
 @media (max-width: 450px){
-	.img-wrap {
-		width: 40%;
-	}
 	
 }
