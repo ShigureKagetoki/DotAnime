@@ -3,16 +3,15 @@ body {
 	-webkit-user-select:none; /* テキスト長押しの選択ボックスを無効化 */
 	background-color: black;
 	
-	/*position: relative;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .img-wrap {
 	max-width: 90%;
 	text-align: center;
 	margin: auto;
-	/*position: absolute;
-	top: 50%;
-	transform: translate(0, -50%);*/
 }
 
 @media (max-width: 768px){
