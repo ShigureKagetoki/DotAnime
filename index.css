@@ -11,6 +11,7 @@ body {
 	align-items: center;
 	height: 100vh;
 	weight: 100vh;
+	background-color: red;
 }
 
 .img-wrap {
@@ -18,11 +19,15 @@ body {
 	margin: auto;
 	max-width: 90%;
 	max-height: 90%;
+	background-color: blue;
 }
 
 @media (max-width: 768px){
 	
 }
 @media (max-width: 450px){
+	.img-wrap {
+		width: 40%;
+	}
 	
 }
