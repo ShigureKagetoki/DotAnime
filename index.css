@@ -2,22 +2,21 @@ body {
 	-webkit-touch-callout:none; /* リンク長押しのポップアップを無効化 */
 	-webkit-user-select:none; /* テキスト長押しの選択ボックスを無効化 */
 	background-color: black;
+	position: relative;
 }
 
-img {
+.img-wrap {
 	max-width: 90%;
 	text-align: center;
 	margin: auto;
-	
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
 }
 
 @media (max-width: 768px){
-	img {
-
-	}
+	
 }
 @media (max-width: 450px){
-	img {
-
-	}
+	
 }
