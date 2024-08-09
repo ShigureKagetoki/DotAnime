@@ -11,6 +11,7 @@ body {
 	align-items: center;
 	height: 100vh;
 	weight: 100vh;
+	background-image: url(./gif/イカす背景.gif);
 }
 
 .img-wrap {
