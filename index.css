@@ -30,6 +30,12 @@ video {
 	max-width: 400px;
 }
 
+a {
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+
 @media (max-width: 768px){
 	
 }
