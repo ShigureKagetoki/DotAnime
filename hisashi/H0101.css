@@ -2,7 +2,7 @@ body {
 	-webkit-touch-callout:none; /* リンク長押しのポップアップを無効化 */
 	-webkit-user-select:none; /* テキスト長押しの選択ボックスを無効化 */
 
-	background-color: #47487E;
+	background-color: #38C0FE;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 }
 
 img {
-	max-width: 100%;
+	max-width: 80%;
 }
 
 video {
@@ -31,7 +31,7 @@ video {
 }
 
 a {
-	color: white;
+	color: #000000;
 	display: block;
 	text-decoration: none;
 }
@@ -40,5 +40,8 @@ a {
 	
 }
 @media (max-width: 450px){
+	img {
+		max-width: 100%;
+	}
 	
 }
