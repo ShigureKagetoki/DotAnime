@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>かざアニ</title>
+</head>
+
+<body onContextmenu="return false;" onCopy="return false;">
+	<div class="container">
+		<div class="img-wrap">
+			<script type="text/javascript">
+   				var imglist = new Array(
+      					"H0101.gif",
+      					"H0102.gif",
+      					"H0103.gif",
+      					"H0104.gif",
+					"H0105.gif",
+					"H0106.gif",
+					"H0107.gif",
+					"H0108.gif",
+					"H0109.gif",
+					"H0110.gif" );
+   				var selectnum = Math.floor(Math.random() * imglist.length);
+   				var output = "<img src=" + imglist[selectnum] + ">";
+   				document.write(output);
+			</script>
+		</div>
+	</div>
+</body>
+</html>
