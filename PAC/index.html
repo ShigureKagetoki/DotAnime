@@ -7,24 +7,28 @@
 	<title>かざアニ</title>
 </head>
 
-<body onContextmenu="return false;" onCopy="return false;">
+<body id="bd" onContextmenu="return false;" onCopy="return false;">
 	<div class="container">
 		<div class="img-wrap">
 			<script type="text/javascript">
    				var imglist = new Array(
-      					"./../gif/H0101.gif",
-      					"./../gif/H0102.gif",
-      					"./../gif/H0103.gif",
-      					"./../gif/H0104.gif",
-					"./../gif/H0105.gif",
-					"./../gif/H0106.gif",
-					"./../gif/H0107.gif",
-					"./../gif/H0108.gif",
-					"./../gif/H0109.gif",
-					"./../gif/H0110.gif" );
+      					"./../gif/H0101.gif","./../gif/H0102.gif","./../gif/H0103.gif","./../gif/H0104.gif",
+					"./../gif/H0105.gif","./../gif/H0106.gif","./../gif/H0107.gif","./../gif/H0108.gif",
+					"./../gif/H0109.gif","./../gif/H0110.gif"
+					);
+				
+				var colorlist = new Array(
+					"#38C0FE","#000000","#292e44","#355baf",
+					"#000000","#000000","#77c6e1","#000000",
+					"#90abf5","#000000"
+					);
+
    				var selectnum = Math.floor(Math.random() * imglist.length);
+
    				var output = "<img src=" + imglist[selectnum] + ">";
    				document.write(output);
+
+				document.getElementById('bd').style.backgroundColor = colorlist[selectnum];
 			</script>
 		</div>
 	</div>
