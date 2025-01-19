@@ -29,16 +29,10 @@
 					"https://x.com/sikakui_hisashi","https://x.com/sikakui_hisashi"
 					);
 
-				var twitterlist2 = new Array{
-					"▫️ヒサシ▫️","▫️ヒサシ▫️","▫️ヒサシ▫️","▫️ヒサシ▫️",
-					"▫️ヒサシ▫️","▫️ヒサシ▫️","▫️ヒサシ▫️","▫️ヒサシ▫️",
-					"▫️ヒサシ▫️","▫️ヒサシ▫️"
-					);
-
    				var selectnum = Math.floor(Math.random() * imglist.length);
 
    				var outputimg = "<img src=" + imglist[selectnum] + ">";
-				var outputtwitter = "<a href=" + twitterlist1[selectnum] + ">" + twitterlist2[selectnum] + "</a>";
+				var outputtwitter = "<a href=" + twitterlist1[selectnum] + ' target="_blank">作者のXはこちら</a>';
 
    				document.write(outputimg);
 				document.write(outputtwitter);

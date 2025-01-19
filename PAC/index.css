@@ -31,9 +31,16 @@ video {
 }
 
 a {
-	color: #000000;
 	display: block;
 	text-decoration: none;
+	padding: 0.5em 1em;
+    	margin: 2em auto;
+    	font-weight: bold;
+    	color: #FFF;/*文字色*/
+    	background: #000;
+    	border: solid 1px #FFF;/*線*/
+    	border-radius: 10px;/*角の丸み*/
+	width: 200px;
 }
 
 @media (max-width: 768px){
