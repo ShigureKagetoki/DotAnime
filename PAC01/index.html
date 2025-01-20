@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>かざアニ</title>
+</head>
+
+<body id="bd" onContextmenu="return false;" onCopy="return false;">
+	<div class="container">
+		<div class="img-wrap">
+			<script type="text/javascript">
+   				var imglist = new Array(
+      					"./../gif01/F0101.gif","./../gif01/S0101.gif","./../gif01/P0101.gif"
+					);
+				
+				var colorlist = new Array(
+					"#2f4858","#000000","#d0d0d0"
+					);
+
+				var twitterlist1 = new Array(
+					"https://x.com/fuyuki_game","https://x.com/SnKaKDot","https://x.com/mearuriteitei"
+					);
+
+   				var selectnum = Math.floor(Math.random() * imglist.length);
+
+   				var outputimg = "<img src=" + imglist[selectnum] + ">";
+				var outputtwitter = "<a href=" + twitterlist1[selectnum] + ' target="_blank">作者のXはこちら</a>';
+
+   				document.write(outputimg);
+				document.write(outputtwitter);
+				
+				document.getElementById('bd').style.backgroundColor = colorlist[selectnum];
+			</script>
+		</div>
+	</div>
+</body>
+</html>
